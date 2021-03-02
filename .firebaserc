@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "quality-test-production-fd975"
+    "default": "quality-test-production-fd975",
+    "staging": "quality-test-staging",
+    "developement": "quality-test-development"
   }
 }
