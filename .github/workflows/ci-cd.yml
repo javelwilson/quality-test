@@ -47,8 +47,7 @@ jobs:
             }}
           channelId: live
           projectId: quality-test-production-fd975
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+
 
   deploy_to_staging:
     if: github.ref == 'refs/heads/staging'
@@ -71,8 +70,6 @@ jobs:
             }}
           channelId: live
           projectId: quality-test-staging
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
 
   deploy_to_development:
     if: github.ref == 'refs/heads/develop'
@@ -95,8 +92,5 @@ jobs:
             }}
           channelId: live
           projectId: quality-test-development
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
-
 
 
